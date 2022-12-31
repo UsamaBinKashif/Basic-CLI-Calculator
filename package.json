@@ -1,0 +1,39 @@
+{
+  "name": "cli-calculator-basic",
+  "version": "6.6.6",
+  "description": "cli calculator made with node js and typescript ",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "cli-calculator-basic": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "ts",
+    "js",
+    "nodejs",
+    "cli",
+    "npm"
+  ],
+  "author": "Usama Bin Kashif",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4",
+    "ora": "^6.1.2"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.13"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
